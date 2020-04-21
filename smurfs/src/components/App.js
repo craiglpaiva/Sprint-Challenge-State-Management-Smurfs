@@ -41,14 +41,14 @@ function App(props) {
             placeholder='Name'
           />
           <input
-            age="age"
+            name="age"
             onChange={handleChange}
             type='text'
             value={fields.age}
             placeholder='Age'
           />
           <input
-            height="height"
+            name="height"
             onChange={handleChange}
             type='text'
             value={fields.height}
